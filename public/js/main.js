@@ -12,13 +12,13 @@ document.addEventListener("DOMContentLoaded", function(){
       var last_scroll_top = 0;
       window.addEventListener('scroll', function() {
             let scroll_top = window.scrollY;
-           if(scroll_top < 50) {
-                nav_autohide.classList.add('scrolled-down');
-                ham_autohide.classList.remove('scrolled-down');
-            }
-            else {
+           if(scroll_top < 100) {
                 nav_autohide.classList.remove('scrolled-down');
                 ham_autohide.classList.add('scrolled-down');
+            }
+            else {
+                nav_autohide.classList.add('scrolled-down');
+                ham_autohide.classList.remove('scrolled-down');
             }
             last_scroll_top = scroll_top;
       }); 
