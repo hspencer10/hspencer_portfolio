@@ -25,7 +25,8 @@ body {
   float: left;
   padding: 45px 45px;
   margin: 0px;
-  font-size: 1.2vw;
+  font-size: 1.1vw;
+  line-height: 36px;
 }
 
 .aboutMe .desc p {

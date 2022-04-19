@@ -1,15 +1,82 @@
+/* Update to the Page header */
+h1.h2 {
+    padding-left: 0px;
+    left: 20.5%;
+}
+
 /* Student section */
-.student h2 {
-    padding: 20px 45px 0px 45px;
+.student .stud h2 {
+    padding: 20px 45px 0px 100px;
     font-weight: lighter;
     font-style: italic;
 }
   
-.student hr {
+.student .stud hr {
     width: 25%;
-    margin-left: 45px;
+    margin-left: 100px;
+}
+
+.studDesc {
+    padding-top: 25px;
 }
 
 .studentDesc {
-    padding: 45px 45px;
+    padding-right: 60px;
+}
+
+.studentDesc p{
+    font-size: 1vw;
+    line-height: 36px;
+    padding-left: 115px;
+}
+
+.studentImg img {
+    display: block;
+    align-items: center;
+    margin: auto auto;
+    border-radius: 50px;
+}
+
+/* Athlete section */
+.athlete .ath h2 {
+    padding: 20px 45px 0px 100px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.athlete .ath hr {
+    width: 25%;
+    margin-left: 100px;
+}
+
+.pics {
+    padding-top: 25px;
+}
+
+.pics .col-4 img {
+    display: block;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.traits {
+    padding-top: 15px;
+    text-align: center;
+}
+
+.traits p {
+    font-size: 1vw;
+    line-height: 36px;
+}
+
+/* Marvel section */
+.marvel .marv h2 {
+    padding: 20px 45px 0px 100px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.marvel .marv hr {
+    width: 25%;
+    margin-left: 100px;
 }

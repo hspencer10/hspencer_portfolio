@@ -6,6 +6,8 @@ body {
 .bg-image {
     /* Full height */
     height: 60vh;
+    position: relative;
+    text-align: center;
 }
 
 .img1 { background-image: url("../media/Background.png"); }
@@ -13,4 +15,15 @@ body {
 /* Navigation edit */
 li.nav-item a.nav-link {
     color: white;
+}
+
+/* Page headers */
+h1.h2 {
+    font-size: 7vw;
+    font-weight: 200;
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-25%, -50%);
 }

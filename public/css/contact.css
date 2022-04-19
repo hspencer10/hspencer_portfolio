@@ -1,0 +1,115 @@
+/* Entire grid */
+.contact {
+    padding: 50px 0px 50px 100px;
+}
+
+/* Form info */
+.form h1 {
+    font-weight: 200;
+}
+
+.form-control {
+    border: 0;
+}
+
+.form hr {
+    margin-top: 0px;
+    margin-bottom: 55px;
+}
+
+.form button {
+    display: flex;
+    margin: auto;
+    height: 6vh;
+    width: 18vw;
+    font-size: 2.5vh;
+    justify-content: center;
+    align-items: center;
+    color: #8f8f8f;
+    border-color: #8f8f8f;
+}
+
+.form button:hover {
+    background-color: #8f8f8f;
+    border-color: #8f8f8f;
+}
+
+/* Code for autoadjusting the textarea of the form */
+.grow-wrap {
+    /* easy way to plop the elements on top of each other and have them both sized based on the tallest one's height */
+    display: grid;
+}
+.grow-wrap::after {
+    /* Note the weird space! Needed to preventy jumpy behavior */
+    content: attr(data-replicated-value) " ";
+
+    /* This is how textarea text behaves */
+    white-space: pre-wrap;
+
+    /* Hidden from view, clicks, and screen readers */
+    visibility: hidden;
+}
+.grow-wrap > textarea {
+    /* You could leave this, but after a user resizes, then it ruins the auto sizing */
+    resize: none;
+
+    /* Firefox shows scrollbar on growth, you can hide like this. */
+    overflow: hidden;
+}
+.grow-wrap > textarea,
+.grow-wrap::after {
+    /* Identical styling required!! */
+    border: none;
+    padding: 6px 12px;
+    font: inherit;
+    /* height: 48px; */
+
+    /* Place on top of each other */
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+/* Connect Info */
+.info {
+    padding-top: 15px;
+    padding-left: 150px;
+    text-align: left;
+}
+
+.info h5{
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.info ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none; 
+}
+
+.info li {
+    margin-bottom: 1rem;
+}
+
+.info a {
+    text-decoration: none;
+    color: black;
+}
+
+.sliding-middle-out {
+	display: inline-block;
+	position: relative;
+	padding-bottom: 3px;
+}
+.sliding-middle-out:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 3px;
+	width: 0px;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease;
+}
+.sliding-middle-out:hover:after {
+	width: 100%;
+	background: rgb(0, 0, 0);
+}
