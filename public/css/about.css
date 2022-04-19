@@ -1,0 +1,15 @@
+/* Student section */
+.student h2 {
+    padding: 20px 45px 0px 45px;
+    font-weight: lighter;
+    font-style: italic;
+}
+  
+.student hr {
+    width: 25%;
+    margin-left: 45px;
+}
+
+.studentDesc {
+    padding: 45px 45px;
+}

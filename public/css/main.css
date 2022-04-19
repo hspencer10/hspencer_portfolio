@@ -1,5 +1,4 @@
-/* // Generate series of `.navbar-expand-*` responsive classes for configuring
-// where your navbar collapses. */
+/* Navigation Styling */
 .navbar-expand {
   @each $breakpoint in map-keys($grid-breakpoints) {
     $next: breakpoint-next($breakpoint, $grid-breakpoints);
@@ -71,6 +70,14 @@
   }
 }
 
+li.nav-item a.nav-link {
+  font-size: 18px;
+}
+
+li.nav-item a.nav-link.active {
+  text-decoration: underline;
+}
+
 /* Adding the scrolling feature */
 .autohide{
     position: fixed;
@@ -89,83 +96,4 @@
 .scrolled-up{
     transform:translateY(0); 
     transition: all 0 ease-in-out;
-}
-
-/* Background Image */
-body {
-    padding-top: 0px !important;
-}
-
-.bg-image {
-    /* Full height */
-    height: 100vh;
-  
-    /* Center and scale the image nicely */
-    background-position: -25% 45%;; 
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.img1 { background-image: url("../media/soccer_background.png"); }
-
-/* Home page description */
-.aboutMe {
-  height: 25%;
-}
-
-.aboutMe .desc {
-  width: 60%;
-  float: left;
-  padding: 45px 45px;
-  margin: 0px;
-  font-size: 1.2vw;
-}
-
-.aboutMe .desc p {
-  margin-bottom: 0px;
-}
-
-.aboutMe .moreBTN {
-  width: 40%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  top: 50%;
-  padding: 45px 45px;
-  margin: auto;
-  float: right;
-}
-
-.btn {
-  width: 150px;
-  height: 150px;
-  padding: 10px 16px;
-  border-radius: 75px;
-  text-align: center;
-  font-size: 2vw;
-  line-height: 1.33;
-}
-
-/* Recent work */
-.carousel h2 {
-  padding: 20px 45px 0px 45px;
-  font-weight: lighter;
-  font-style: italic;
-}
-
-.carousel hr {
-  width: 25%;
-  margin-left: 45px;
-}
-
-.carousel-inner .carousel-item img {
-  object-fit: contain;
-  padding: 20px 0px 150px 0px;
-}
-
-.carousel-caption hr {
-  width: 20%;
-  height: 3px;
-  margin-left: auto;
-  margin-right: auto;
 }

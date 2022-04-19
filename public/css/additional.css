@@ -1,0 +1,16 @@
+/* Background Image */
+body {
+    padding-top: 0px !important;
+}
+
+.bg-image {
+    /* Full height */
+    height: 60vh;
+}
+
+.img1 { background-image: url("../media/Background.png"); }
+
+/* Navigation edit */
+li.nav-item a.nav-link {
+    color: white;
+}
