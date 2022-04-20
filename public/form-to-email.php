@@ -11,7 +11,7 @@ if(isset($_POST['submit'])){
     $subject = "Form submission";
     $subject2 = "Copy of your form submission";
     $message = $name . " from " . $company . " wrote the following:" . "\n\n" . $_POST['text'];
-    $message2 = "Here is a copy of your message " . $name . "\n\n" . $_POST['message'];
+    $message2 = "Here is a copy of your message " . $name . "\n\n" . $_POST['text'];
 
     $headers = "From:" . $from;
     $headers2 = "From:" . $to;

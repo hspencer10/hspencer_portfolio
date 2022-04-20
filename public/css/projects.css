@@ -1,0 +1,52 @@
+/* Cards section */
+.container {
+    overflow: hidden;
+}
+  
+.filterDiv {
+    float: left;
+    width: 100px;
+    text-align: center;
+    margin: 2px;
+    display: none; /* Hidden by default */
+}
+  
+/* The "show" class is added to the filtered elements */
+.show {
+    display: block;
+}
+
+.card {
+    margin: 0px 50px;
+}
+  
+/* Card filtering buttons */
+/* Style the buttons */
+.buttonContainer {
+    margin: 50px 100px;
+}
+
+.btn {
+    border: 1px solid #8f8f8f;
+    border-radius: 50px;
+    outline: none;
+    padding: 12px 36px;
+    margin-right: 50px;
+    font-weight: 400;
+    font-size: 2vh;
+    background-color: #ffffff;
+    color: #8f8f8f;
+    cursor: pointer;
+}
+  
+/* Add a light grey background on mouse-over */
+.btn:hover {
+    background-color: #8f8f8f;
+    color: white;
+}
+  
+/* Add a dark background to the active button */
+.btn.active {
+    background-color: #8f8f8f;
+    color: white;
+}
