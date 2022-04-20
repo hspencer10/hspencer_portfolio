@@ -72,10 +72,18 @@
 
 li.nav-item a.nav-link {
   font-size: 18px;
+  display: inline-block;
+  position: relative;
+  padding-bottom: 3px;
 }
 
-li.nav-item a.nav-link.active {
-  text-decoration: underline;
+li.nav-item a.nav-link.active:after {
+  width: 100%;
+  content: '';
+	display: block;
+	margin: auto;
+	height: 3px;
+	background: rgb(255, 255, 255);
 }
 
 /* Adding the scrolling feature */

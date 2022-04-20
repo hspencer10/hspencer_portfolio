@@ -17,6 +17,25 @@ li.nav-item a.nav-link {
     color: white;
 }
 
+.underline-animated {
+	display: inline-block;
+	position: relative;
+	padding-bottom: 3px;
+}
+.underline-animated:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 3px;
+	width: 0px;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease;
+}
+.underline-animated:hover:after {
+	width: 100%;
+	background: rgb(255, 255, 255);
+}
+
 /* Page headers */
 h1.h2 {
     font-size: 7vw;
