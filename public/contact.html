@@ -79,14 +79,14 @@
             <input type="email" name="email" class="form-control" placeholder="*jane@doe.com" required>
             <hr>
             <h1>3. What's the name of your company?</h1>
-            <input type="company" class="form-control" id="inputCompany" placeholder="*Jane & Doe">
+            <input type="text" name="company" class="form-control" placeholder="*Jane & Doe">
             <hr>
             <h1>4. Your message</h1>
             <div class="grow-wrap">
               <textarea name="message" id="text" onInput="this.parentNode.dataset.replicatedValue = this.value" placeholder="*Hello Helena, I would like to connect..."></textarea>
             </div>
             <hr>
-            <input type="hidden" name="_autoresponse" value="Thank you for your response! I will be in touch with you shortly. ">
+            <input type="hidden" name="_autoresponse" value="Thank you for your response! I will be in touch with you shortly. -Helena Spencer">
             <button type="submit" class="btn btn-outline-secondary">function Send()</button>
           </form>
         </div>
