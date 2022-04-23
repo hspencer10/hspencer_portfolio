@@ -38,6 +38,51 @@ h1.h2 {
     border-radius: 50px;
 }
 
+/* .studentImg {
+    width: 25%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex; */
+/* }
+
+.studentImg img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.studentImg:hover:before {
+    bottom: 4rem;
+    right: 6rem;
+}
+    
+.studentImg:hover:after {
+    top: 4rem;
+    left: 6rem;
+}
+
+.studentImg:before, :after {
+    content:'';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transition: .3s ease;
+}
+
+.studentImg:before {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAAU0lEQVQoU43QMRYAEQwE0ExHyf3vqNxybF6wRIpNZ3whIL74UJDh4zNQpFWTSMOx9y0m0m6FdmDDBnc073QYIQqwweDxa5jR+Zru+gUNCvkPvrgDcCIgJ6cWP4UAAAAASUVORK5CYII=) repeat;
+    bottom: 2rem;
+    right: 2rem;
+}
+
+.studentImg:after{
+    background: #00fff7;
+    top: 2rem;
+    left: 2rem;
+} */
+
 /* Athlete section */
 .athlete .ath h2 {
     padding: 20px 45px 0px 100px;
@@ -52,32 +97,42 @@ h1.h2 {
 
 .pics {
     padding-top: 25px;
+    text-align: center;
 }
 
 .pics .col-4 img {
     display: block;
     align-items: center;
     margin: 0 auto;
+    filter: grayscale();
 }
 
-.traits {
+.pics .col-4:hover img {
+    filter: none;
+}
+
+.pics .col-4 h5 {
     padding-top: 15px;
-    text-align: center;
-}
-
-.traits h5 {
     font-weight: 200;
 }
 
-.traits p {
+.pics .col-4:hover h5 {
+    color: red;
+}
+
+.pics .col-4 p {
     font-size: 1vw;
-    font-weight: 300;
+    font-weight: 200;
     line-height: 36px;
     margin-bottom: 0px;
     padding: 0px 100px;
 }
 
-.traits hr {
+.pics .col-4:hover p {
+    font-weight: 300;
+}
+
+.pics .col-4 hr {
     width: 15%;
     margin-left: auto;
     margin-right: auto;
@@ -106,4 +161,13 @@ h1.h2 {
 .marvImg {
     padding-top: 25px;
     margin-bottom: 25px;
+}
+
+/* General settings */
+:before {
+    height: 0px;
+}
+
+body::after {
+    height: 0px;
 }
