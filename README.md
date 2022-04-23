@@ -4,11 +4,9 @@ For this assignment, I chose to develop a personal portfolio. My main goals were
 
 ## LINKS
 
-<h3>Website</h3>
-<a href="https://helena-spencer.web.app"></a>
+[Website](https://helena-spencer.web.app)
 
-<h3>GitHub</h3>
-<a href="https://github.com/hspencer10/hspencer_portfolio"></a>
+[GitHub](https://github.com/hspencer10/hspencer_portfolio)
 
-<h3>Figma</h3>
-<a href="https://www.figma.com/file/bTvDey07Uf0kVUlJWXovup/HW7?node-id=0%3A1"></a>
+[Figma](https://www.figma.com/file/bTvDey07Uf0kVUlJWXovup/HW7?node-id=0%3A1)
+
