@@ -20,6 +20,8 @@ The purpose of my website is to display the work/projects I have done in school 
   - Navigation bar
     - At the top of every page is a navigation bar with the different pages. If you scroll down at all, the navigation bar turns into a hamburger menu located at the top right of the screen.
 - Home Page
+  - Hello! header
+    - Underneath the background picture, there is a header that says "Hello!" and if you hover over the word, it grows.
   - Learn More button
     - Scroll past the main background picture to the "Learn More" button and click on it. You should then be redirected to the "About" page.
   - Recent Work carousel
@@ -47,5 +49,5 @@ I was able to develop my website very similarily to my hi-fi prototype in Figma 
 
 ## Major Challenges
 
-
+I ran into many challenges while developing this website. One problem was determining how to have the form on the "Contact" page be able to be submitted but after hours of researching it and getting help from the TA I was pointed to FormSubmit which worked. Another problem was figuring out how to get the timing and view of the scrolling header on the "Home" page accurate which took a lot of iterating. I also had trouble being able to get the project cards on the "Projects" page to be filterable. Lastly, I wanted to implement more animations but I was running into errors with adding an ::after attribute to the element selectors because it would add a large amount of space to the end of the page so I took the animation out.
 
