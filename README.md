@@ -16,10 +16,20 @@ The purpose of my website is to display the work/projects I have done in school 
 
 ## Usage of Website
 
+- All pages
+  - At the top of every page is a navigation bar with the different pages. If you scroll down at all, the navigation bar turns into a hamburger menu located at the top right of the screen.
 - Home Page
   - Learn More button
     - Scroll past the main background picture to the "Learn More" button and click on it. You should then be redirected to the "About" page.
-  -   
+  - Recent Work carousel
+    - At the bottom of the Home page, there is a carousel displaying my recent projects. To see different projects, click on the arrows to the left and right of the images.
+ - About page
+  - Hoverable Columns
+    - In the *Athlete* section, if you hover over any of the images/text, the image for that column turns from grayscale to colored, the header for the trait turns red, and the text changes weight slightly.
+ - Projects page
+  - Filterable Cards
+  - The projects cards are filterable. If you click on the "All", "Applications", or "Websites" buttons, the corresponding projects are displayed.
+ - Contact page
 
 
 ## External Libraries
