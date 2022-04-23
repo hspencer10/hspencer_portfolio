@@ -23,13 +23,17 @@ The purpose of my website is to display the work/projects I have done in school 
     - Scroll past the main background picture to the "Learn More" button and click on it. You should then be redirected to the "About" page.
   - Recent Work carousel
     - At the bottom of the Home page, there is a carousel displaying my recent projects. To see different projects, click on the arrows to the left and right of the images.
- - About page
-  - Hoverable Columns
+- About page
+  - Hoverable columns
     - In the *Athlete* section, if you hover over any of the images/text, the image for that column turns from grayscale to colored, the header for the trait turns red, and the text changes weight slightly.
- - Projects page
-  - Filterable Cards
-  - The projects cards are filterable. If you click on the "All", "Applications", or "Websites" buttons, the corresponding projects are displayed.
- - Contact page
+- Projects page
+  - Filterable cards
+    - The projects cards are filterable. If you click on the "All", "Applications", or "Websites" buttons, the corresponding projects are displayed.
+- Contact page
+  - Submitable form
+    - The form on this page is able to be filled out and submitted. The user is then sent an email with a copy of their responses.
+  - Social links
+    - The links on the right hand side of the page under "Links" are able to be clicked and then the viewer is taken to the corresponding URL. Also, to communicate that the links are clickable, an animated line is displayed on hover.
 
 
 ## External Libraries
