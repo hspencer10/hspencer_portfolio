@@ -28,6 +28,7 @@ h1.h2 {
     font-size: 1vw;
     line-height: 36px;
     padding-left: 115px;
+    font-weight: 300;
 }
 
 .studentImg img {
@@ -64,9 +65,23 @@ h1.h2 {
     text-align: center;
 }
 
+.traits h5 {
+    font-weight: 200;
+}
+
 .traits p {
     font-size: 1vw;
+    font-weight: 300;
     line-height: 36px;
+    margin-bottom: 0px;
+    padding: 0px 100px;
+}
+
+.traits hr {
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
 }
 
 /* Marvel section */
@@ -79,4 +94,16 @@ h1.h2 {
 .marvel .marv hr {
     width: 25%;
     margin-left: 100px;
+}
+
+.marvDesc {
+    font-size: 1vw;
+    line-height: 36px;
+    padding-right: 115px;
+    font-weight: 300;
+}
+
+.marvImg {
+    padding-top: 25px;
+    margin-bottom: 25px;
 }

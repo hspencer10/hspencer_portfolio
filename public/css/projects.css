@@ -1,6 +1,28 @@
 /* Cards section */
-.container {
-    overflow: hidden;
+.w3-container {
+    width: 100%;
+    display: grid;
+    gap: 50px;
+    justify-items: center;
+    align-items: center;
+}
+
+.w3-container:before {
+    content: none;
+}
+
+.w3-container:after {
+    content: none;
+}
+
+/* Screen larger than 600px? 2 column */
+@media (min-width: 300px) {
+    .w3-container { grid-template-columns: repeat(1, 1fr); }
+}
+  
+/* Screen larger than 900px? 3 columns */
+@media (min-width: 1450px) {
+    .w3-container { grid-template-columns: repeat(2, 1fr); }
 }
   
 .filterDiv {
@@ -17,13 +39,45 @@
 }
 
 .card {
-    margin: 0px 50px;
+    /* margin: 0px 50px; */
+    width: 35vw;
+    height: 35vh;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+}
+
+.card img.vert {
+    height: 100%;
+    width: auto;
+}
+
+.card img.horz {
+    width: 100%;
+    height: auto;
+}
+
+.card-body h5 {
+    font-weight: 400;
+    font-size: 25px;
+    text-align: left;
+}
+
+.card-body p {
+    text-align: left;
+    font-style: italic;
+}
+
+.card-body hr {
+    width: 75%;
 }
   
 /* Card filtering buttons */
 /* Style the buttons */
 .buttonContainer {
-    margin: 50px 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
 }
 
 .btn {

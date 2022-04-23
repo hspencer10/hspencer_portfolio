@@ -39,7 +39,8 @@ li.nav-item a.nav-link {
 /* Page headers */
 h1.h2 {
     font-size: 7vw;
-    font-weight: 200;
+    font-family: var(--bs-body-font-family);
+    font-weight: 200 !important; 
     text-align: left;
     position: absolute;
     top: 50%;

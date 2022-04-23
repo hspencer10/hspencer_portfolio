@@ -34,6 +34,59 @@ body {
 
 .img1 { background-image: url("../media/soccer_background.png"); }
 
+.h2 {
+  width:100%;
+  margin:0 auto;
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-size: 8vw;
+  text-shadow: 7px 2px 10px #000000;
+  font-family: var(--bs-body-font-family);
+  font-weight: 200 !important; 
+  text-align: left;
+  position: absolute;
+  top: 90%;
+  transform: translate(0, -90%);
+  overflow: hidden;
+}
+
+.marqueeStyle {
+  display:inline-block;
+  /* Apply animation to this element */
+  -webkit-animation: scrolling-left1 20s linear infinite;
+  animation: scrolling-left1 20s linear infinite;
+}
+
+.marqueeStyle2 {
+  display:inline-block;
+  /* Apply animation to this element */
+  -webkit-animation: scrolling-left2 20s linear infinite;
+  animation: scrolling-left2 20s linear infinite;
+  animation-delay: 10s;
+}
+/* scrolling-left is continuous/repeatly text */
+@keyframes scrolling-left1 {
+    0% {transform: translateX(100%);
+        -webkit-transform: translateX(100%);}
+      100% {transform: translateX(-100%);
+          -webkit-transform: translateX(-100%);}
+}
+@keyframes scrolling-left2 {
+    0% {transform: translateX(0%);
+        -webkit-transform: translateX(0%);}
+      100% {transform: translateX(-200%);
+          -webkit-transform: translateX(-200%);}
+}
+
+/* @-webkit-keyframes scrolling-left1 {
+    0% {-webkit-transform: translateX(100%);}
+      100% {-webkit-transform: translateX(-100%);}
+}
+@-webkit-keyframes scrolling-left2 {
+    0% {-webkit-transform: translateX(0%);}
+      100% {-webkit-transform: translateX(-200%);}
+} */
+
 /* Home page description */
 .aboutMe {
   height: 25%;
@@ -43,13 +96,28 @@ body {
   width: 60%;
   float: left;
   padding: 45px 45px;
+  padding-left: 100px;
   margin: 0px;
   font-size: 1.1vw;
   line-height: 36px;
 }
 
+.aboutMe h2 {
+  font-style: italic;
+  font-size: 5vh;
+  transition: .3s ease;
+}
+
+.aboutMe h2:hover {
+  transform-origin: left;
+  transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+}
+
 .aboutMe .desc p {
   margin-bottom: 0px;
+  font-weight: 300;
 }
 
 .aboutMe .moreBTN {
@@ -75,14 +143,14 @@ body {
 
 /* Recent work */
 .carousel h2 {
-  padding: 20px 45px 0px 45px;
+  padding: 20px 45px 0px 100px;
   font-weight: lighter;
   font-style: italic;
 }
 
 .carousel hr {
   width: 25%;
-  margin-left: 45px;
+  margin-left: 100px;
 }
 
 .carousel-inner .carousel-item img {
@@ -92,7 +160,6 @@ body {
 
 .carousel-caption hr {
   width: 20%;
-  height: 3px;
   margin-left: auto;
   margin-right: auto;
 }
