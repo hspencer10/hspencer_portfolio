@@ -18,7 +18,7 @@ The purpose of my website is to display the work/projects I have done in school 
 
 - Home Page
   - Learn More button
-  -   Scroll past the main background picture to the "Learn More" button and click on it. You should then be redirected to the "About" page.
+    - Scroll past the main background picture to the "Learn More" button and click on it. You should then be redirected to the "About" page.
   -   
 
 
