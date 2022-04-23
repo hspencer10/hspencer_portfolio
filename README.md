@@ -17,7 +17,8 @@ The purpose of my website is to display the work/projects I have done in school 
 ## Usage of Website
 
 - All pages
-  - At the top of every page is a navigation bar with the different pages. If you scroll down at all, the navigation bar turns into a hamburger menu located at the top right of the screen.
+  - Navigation bar
+    - At the top of every page is a navigation bar with the different pages. If you scroll down at all, the navigation bar turns into a hamburger menu located at the top right of the screen.
 - Home Page
   - Learn More button
     - Scroll past the main background picture to the "Learn More" button and click on it. You should then be redirected to the "About" page.
@@ -35,9 +36,9 @@ The purpose of my website is to display the work/projects I have done in school 
   - Social links
     - The links on the right hand side of the page under "Links" are able to be clicked and then the viewer is taken to the corresponding URL. Also, to communicate that the links are clickable, an animated line is displayed on hover.
 
-
 ## External Libraries
 
+I used primarily **Bootstrap v 5.0** throught my various pages which I chose to use because it came with detailed documentation and it was very easy to use. The parts of my pages I chose to use Bootstrap with are the buttons, carousels, cards, and navigation bar. This library adds interactivity to my website as well as making formating more consistent. The other library I used was **FormSubmit** which was only for allowing the form on the "Contact" page to be submitable, adding a level of interactivity for the user by allowing them to connect with me directly through the website.
 
 ## Iteration from HW7
 
