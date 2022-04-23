@@ -27,7 +27,7 @@ body {
     height: 100vh;
   
     /* Center and scale the image nicely */
-    background-position: -25% 45%;; 
+    background-position: -25% 40%;; 
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -36,13 +36,14 @@ body {
 
 .h2 {
   width:100%;
+  color: red;
   margin:0 auto;
   white-space: nowrap;
   text-transform: uppercase;
   font-size: 8vw;
-  text-shadow: 7px 2px 10px #000000;
+  text-shadow: 7px 7px 10px #fff, -7px -7px 10px #fff, -7px 7px 10px #fff, 7px -7px 10px #fff;
   font-family: var(--bs-body-font-family);
-  font-weight: 200 !important; 
+  font-weight: 400 !important; 
   text-align: left;
   position: absolute;
   top: 90%;
@@ -53,39 +54,24 @@ body {
 .marqueeStyle {
   display:inline-block;
   /* Apply animation to this element */
-  -webkit-animation: scrolling-left1 20s linear infinite;
-  animation: scrolling-left1 20s linear infinite;
+  animation: scrolling-left1 30s linear infinite;
 }
 
 .marqueeStyle2 {
   display:inline-block;
   /* Apply animation to this element */
-  -webkit-animation: scrolling-left2 20s linear infinite;
-  animation: scrolling-left2 20s linear infinite;
-  animation-delay: 10s;
+  animation: scrolling-left2 30s linear infinite;
+  animation-delay: 11.1s;
 }
 /* scrolling-left is continuous/repeatly text */
 @keyframes scrolling-left1 {
-    0% {transform: translateX(100%);
-        -webkit-transform: translateX(100%);}
-      100% {transform: translateX(-100%);
-          -webkit-transform: translateX(-100%);}
+    0% {transform: translateX(75%);}
+    100% {transform: translateX(-125%);}
 }
 @keyframes scrolling-left2 {
-    0% {transform: translateX(0%);
-        -webkit-transform: translateX(0%);}
-      100% {transform: translateX(-200%);
-          -webkit-transform: translateX(-200%);}
+    0% {transform: translateX(0%);}
+    100% {transform: translateX(-200%);}
 }
-
-/* @-webkit-keyframes scrolling-left1 {
-    0% {-webkit-transform: translateX(100%);}
-      100% {-webkit-transform: translateX(-100%);}
-}
-@-webkit-keyframes scrolling-left2 {
-    0% {-webkit-transform: translateX(0%);}
-      100% {-webkit-transform: translateX(-200%);}
-} */
 
 /* Home page description */
 .aboutMe {
