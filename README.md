@@ -1,6 +1,6 @@
 # README - Helena Spencer
 
-##LINKS
+## LINKS
 
 <h3>Figma</h3>
 <a href=""></a>
