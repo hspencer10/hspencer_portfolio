@@ -42,6 +42,10 @@ I used primarily **Bootstrap v 5.0** throught my various pages which I chose to 
 
 ## Iteration from HW7
 
+I was able to develop my website very similarily to my hi-fi prototype in Figma but I did make some changes. First, I added an infinitely scrolling header with my name to the "Home" page so the viewer knew my right away. Secondly, I intentionally chose to leave out the footer at the end of each page because the information that I was going to have there was slightly redundant and I felt it wasn't worth the time spent to add it. Lastly, a more smaller change I made was to leave out the red-circles on the "Home" page on top of my picture because I felt they didn't fit with the theme but am considering adding text there in the future.
+
 
 ## Major Challenges
+
+
 
